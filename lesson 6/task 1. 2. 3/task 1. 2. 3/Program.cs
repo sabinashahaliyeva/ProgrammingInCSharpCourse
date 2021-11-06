@@ -20,19 +20,29 @@ namespace task_1._2._3_
                 Console.WriteLine("x[{0}] = {1}", i, ededler[i]);
             }
 
-            Console.WriteLine(" ---------- ");
+            Console.WriteLine("---------------");
 
             Console.WriteLine("artan sira ile ");
 
             Array.Sort(ededler);
 
-            foreach (var num in ededler) ;
+            foreach (var num in ededler) 
             {
-                Console.WriteLine("num");
+                Console.WriteLine(num);
             }
 
+            Console.WriteLine("---------------");
 
+            Console.WriteLine("maksimum 3cu element {0}.", ededler[2]);
 
+            Console.WriteLine("---------------");
+
+            Console.WriteLine("maksimum 4cu element : ");
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine(ededler[i]);
+            }
         }
     }
 }
